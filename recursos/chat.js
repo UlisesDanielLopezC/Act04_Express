@@ -1,5 +1,5 @@
 //Conexion
-const socket = io.connect('http://localhost:3000');
+const socket = io();
 
 //Estructura
 const msj = document.getElementById('msj');
